@@ -1,7 +1,15 @@
 
-Açıklama
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# OpenCV Examples
 
-*grayscale_image.py örneğinde, cv2.imread fonksiyonu ile bir görüntü dosyasını yüklüyoruz. Dosya yolunu ve dosya adını kendi görüntünüzün yerine koymanız gerekmektedir. cv2.cvtColor fonksiyonu ile görüntüyü gri tonlamaya çeviriyoruz. Sonra, cv2.imshow fonksiyonu ile gri tonlamalı görüntüyü gösteriyoruz. cv2.waitKey(0) satırı, bir tuşa basılıncaya kadar görüntünün ekranda kalmasını sağlar. Son olarak, cv2.destroyAllWindows() ile tüm pencereleri kapatıyoruz.
+Bu repo, OpenCV kullanarak basit görüntü işleme işlemlerinin nasıl gerçekleştirileceğini gösteren örnek Python scriptlerini içermektedir.
 
-*grayscale_image.py, öncelikle bir görüntüyü yükler ve gri tonlamaya çevirir. Sonra, cv2.Canny fonksiyonunu kullanarak Canny kenar tespit algoritmasını uygular. threshold1 ve threshold2 değerleri, kenar tespitinde kullanılan eşik değerleridir ve bu değerler, belirli bir görüntüye veya uygulamaya bağlı olarak ayarlanabilir.
+## Örnekler
+
+1. **Grayscale Image Conversion:** Bu script, bir görüntüyü gri tonlamaya dönüştürür. `grayscale_image.py` dosyasına bakınız.
+
+2. **Canny Edge Detection:** Bu script, bir görüntüde Canny kenar tespiti algoritmasını uygular. `canny_edge_detection.py` dosyasına bakınız.
+
+## Kurulum
+
+Bu scriptleri çalıştırmak için öncelikle OpenCV'nin Python kütüphanesini kurmanız gerekmektedir. Bu kütüphaneyi pip kullanarak kurabilirsiniz:
+
