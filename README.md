@@ -13,3 +13,12 @@ Bu repo, OpenCV kullanarak basit görüntü işleme işlemlerinin nasıl gerçek
 
 Bu scriptleri çalıştırmak için öncelikle OpenCV'nin Python kütüphanesini kurmanız gerekmektedir. Bu kütüphaneyi pip kullanarak kurabilirsiniz:
 
+
+## Kullanım
+
+Her scripti çalıştırmak için, scriptin bulunduğu dizinde bir terminal veya komut istemi açın ve aşağıdaki komutu girin:
+
+
+Burada "script_adı.py" çalıştırmak istediğiniz scriptin adıdır, örneğin `grayscale_image.py` veya `canny_edge_detection.py`.
+
+**Not:** Her iki script de giriş olarak bir görüntü dosyası alır. Bu görüntü dosyasının yolunu scriptte belirtmeniz gerekmektedir.
